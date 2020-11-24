@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Space News",
+        "color": "#FFE55C",
+        "bgColor": "#1D77CA",
+        "link": "/space-news"
+    },
+    {
+        "name": "Mars Weather",
+        "color": "#BE4400",
+        "bgColor": "#00BE91",
+        "link": "/mars-weather"
+    },
+    {
+        "name": "APOD",
+        "color": "white",
+        "bgColor": "#8842A0",
+        "link": "/apod"
+    }
+]

@@ -1,0 +1,18 @@
+div.text-box {
+	bottom: 0;
+	background-color: #00000099;
+	color: white;
+    width: 100%;
+    overflow: hidden;
+    height: 50%;
+}
+
+div.news-site p {
+    font-size: 12px;
+}
+
+img:hover + div.text-box, div.text-box:hover {
+    
+    height: 100%;
+    transition: height 0.3s;
+}

@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=Rasa:wght@300;400;500;600;700&family=Shrikhand&family=Suez+One&display=swap");
+
+html, body {
+  background-color: #ffffff00;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  height: 90%;
+  background-image: linear-gradient(white, #e2e2e2);
+  background-attachment: fixed;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a:hover {
+  text-decoration: none;
+  font-style: italic;
 }
 
-.App-link {
-  color: #61dafb;
+.logo, .logo a {
+  font-family: "Shrikhand", cursive;
+  color: black;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+	font-family: "Suez One", serif;
+}
+
+body {
+  font-family: "Rasa", serif;
 }

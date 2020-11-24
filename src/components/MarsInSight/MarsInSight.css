@@ -1,0 +1,43 @@
+.frame-container, .table-container {
+	overflow-x: scroll;
+}
+
+::-webkit-scrollbar {
+    height: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+iframe {
+	width: 1045px;
+	height: 655px;
+	border: none;
+}
+
+table {
+    margin: 0 auto 10px auto;;
+    text-align: center;
+    font-size: 18px;
+}
+
+table, td, th {
+    border: 1px solid #828282;
+}
+
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 5px 15px;
+}
+
+.MI-button {
+    margin-left: 3%;
+}
