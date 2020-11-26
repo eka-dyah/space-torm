@@ -6,7 +6,7 @@ class Apod extends Component {
 
 	componentDidMount() {
 		this.setState({ isLoading: true });
-		fetch('https://api.nasa.gov/planetary/apod?api_key=qE49VhkhKy5lprJVMMw2lrUpJjns4mOnZfMVpqij')
+		fetch(process.env.REACT_APP_BACKEND_URL + "/apod")
 		.then(res => res.json())
 		.then(result => {
 			this.setState({
@@ -15,7 +15,7 @@ class Apod extends Component {
 				error: null
 			})
 		})
-		.catch(error => this.setState({ error }))
+		.catch(error => this.setState({ error, isLoading: false }))
 	}
 
 	render() {
