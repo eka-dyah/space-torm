@@ -39,6 +39,12 @@ nav {
     font-style: normal;
 }
 
+.nav-links a.active {
+    background-color: transparent;
+    color: #696767;
+    cursor: default;
+}
+
 .nav-links.show {
     transform: translateX(0);
     transition: transform 0.4s;

@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import navlinks from "../../Links/navlinks.json";
 
 import "./NavigationBar.css";
@@ -23,9 +23,9 @@ const NavigationBar = ({ isShow, toggleShow }) => {
 				</div>
 				<div className={["nav-links", isShow].join(" ")}>
 					{navlinks.map((na) => (
-						<Link key={na.name} to={na.link} onClick={toggleShow}>
+						<NavLink key={na.name} to={na.link} onClick={toggleShow} activeClassName="active">
 							{na.name}
-						</Link>
+						</NavLink>
 					))}
 				</div>
 			</div>
