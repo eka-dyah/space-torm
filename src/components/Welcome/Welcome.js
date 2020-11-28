@@ -6,7 +6,7 @@ const Welcome = () => (
 	<div className="container-lg mt-5">
 		<h1 className="logo text-center">Space Torm</h1>
 		<hr />
-		<div className="row my-5">
+		<div className="row my-5 justify-content-center">
 			{navlinks.map((na) => (
 				<div className="col-12 col-sm-6" key={na.name}>
 					<Link to={na.link}>
