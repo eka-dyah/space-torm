@@ -1,5 +1,3 @@
-import React from "react";
-
 const Error = ({ errorMessage = null }) => (
 	<div className="col-12 text-center">
 		{errorMessage ? (

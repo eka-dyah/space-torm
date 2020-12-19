@@ -1,5 +1,3 @@
-import React from "react";
-
 import "./NewsTile.css";
 
 const NewsTile = ({ url, featured_image, title, published_date, news_site }) => (

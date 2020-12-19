@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import { Component } from "react";
 import NavigationBar from "../../components/NavigationBar/NavigationBar";
 
 class Navigation extends Component {

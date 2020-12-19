@@ -1,13 +1,13 @@
-import React, { Suspense } from "react";
+import { Suspense, lazy } from "react";
 import "./App.css";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Loading from "./components/Additional/Loading";
 
-const MarsInSight = React.lazy(() => import("./containers/MarsInSight/MarsInSight"));
-const SpaceNews = React.lazy(() => import("./containers/SpaceNews/SpaceNews"));
-const Apod = React.lazy(() => import("./containers/Apod/Apod"));
-const Welcome = React.lazy(() => import("./components/Welcome/Welcome"));
+const MarsInSight = lazy(() => import("./containers/MarsInSight/MarsInSight"));
+const SpaceNews = lazy(() => import("./containers/SpaceNews/SpaceNews"));
+const Apod = lazy(() => import("./containers/Apod/Apod"));
+const Welcome = lazy(() => import("./components/Welcome/Welcome"));
 
 const path = [
 	{ comp: Welcome, path: "/", exact: true },

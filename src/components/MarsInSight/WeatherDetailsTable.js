@@ -1,4 +1,3 @@
-import React from "react";
 import { floatTwoPoint } from "../../utils/floatTwoPoint";
 
 const tableHeaderProp = [

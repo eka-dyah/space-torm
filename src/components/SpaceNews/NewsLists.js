@@ -1,4 +1,3 @@
-import React from "react";
 import NewsTile from "./NewsTile";
 
 const NewsLists = ({ newsData = null, prevButton, nextButton }) => {

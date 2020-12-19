@@ -1,4 +1,3 @@
-import React from "react";
 import Error from "../Additional/Error";
 import Loading from "../Additional/Loading";
 import NewsLists from "./NewsLists";
