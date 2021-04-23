@@ -50,7 +50,7 @@ nav {
     transition: transform 0.4s;
 }
 
-.nav-links.hide {
+.nav-links.hidden {
     transform: translateX(-200%);
     transition: transform 0.5s;
 }
@@ -68,7 +68,7 @@ nav {
         background-color: transparent;
     }
 
-    .nav-links.hide {
+    .nav-links.hidden {
         transform: translateX(0);
     }
 }
