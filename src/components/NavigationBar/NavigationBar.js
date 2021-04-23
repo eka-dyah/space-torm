@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import navlinks from "../../Links/navlinks.json";
 
 import "./NavigationBar.css";
@@ -16,7 +16,7 @@ const NavigationBar = ({ isShow, toggleShow }) => {
 							<i className="fa fa-bars" aria-hidden="true"></i>
 						</div>
 						<div className="ml-4 logo">
-							<a href="/">Space Torm</a>
+							<Link to="/">Space Torm</Link>
 						</div>
 					</div>
 				</div>

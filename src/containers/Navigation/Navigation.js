@@ -2,13 +2,13 @@ import { Component } from "react";
 import NavigationBar from "../../components/NavigationBar/NavigationBar";
 
 class Navigation extends Component {
-    state = { isShow: "hide" }
+    state = { isShow: "hidden" }
 
     toggleShow = () => {
-        if (this.state.isShow === "hide") {
+        if (this.state.isShow === "hidden") {
             this.setState({ isShow: "show"})
         } else if (this.state.isShow === "show") {
-            this.setState({ isShow: "hide" })
+            this.setState({ isShow: "hidden" })
         }
     }
     render() {
